@@ -9,7 +9,7 @@
     padding = 12
     separator_height = 0
     horizontal_padding = 12
-    frame_width = 2
+    frame_width = 4
     gap_size = 2
     font = "Terminess Nerd Font Bold 15"
 
@@ -17,10 +17,10 @@
     enable_recursive_icon_lookup = true
     max_icon_size = 81
 
-    background = "#000000"
-    foreground = "#9564fd"
-    frame_color = "#9654DF"
-    highlight = "#9654DF"
+    foreground = "#420061"
+    background = "#9654DF"
+    highlight = "#713EAB"
+    frame_color = "#713EAB"
 
     corner_radius = 6
 
