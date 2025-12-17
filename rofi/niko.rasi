@@ -1,0 +1,74 @@
+
+* {
+    bg: rgba(113,62,171,0.75);
+    element-bg: #9654DF;
+    selected-element-bg: #844BC4;
+    entry: #9654DF;
+    entry-text: #420061;
+    text: #420061;
+    width: 360;
+    font: "Terminess Nerd Font Bold 15";
+}
+
+element-text, element-icon , mode-switcher {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+window {
+    border-color: @bg;
+    border: 4px;
+    border-radius: 12px;
+    background-color: @bg;
+}
+
+mainbox {
+    background-color: transparent;
+    padding: 12px 12px 12px;
+}
+
+inputbar {
+    children: [entry];
+    background-color: transparent;
+}
+
+entry {
+    padding: 8px 12px 12px;
+    margin: 8px 0 8px;
+    text-color: @entry-text;
+    background-color: @entry;
+    placeholder: "Search";
+    placeholder-color: @entry-text;
+    border-color: @bg;
+    border-radius: 12px;
+}
+
+listview {
+    padding: 6px 0px 0px;
+    columns: 1;
+    lines: 5;
+    background-color: transparent;
+}
+
+element {
+    background-color: @element-bg;
+    text-color: @text;
+    padding: 8px 8px 8px 8px;
+    margin: 1px;
+    border-radius: 12px;
+}
+
+element-icon {
+    size: 32px;
+}
+
+element selected {
+    background-color: @selected-element-bg;
+    text-color: @text;
+}
+
+mode-switcher {
+  enabled: false;
+  spacing: 0;
+}
+
